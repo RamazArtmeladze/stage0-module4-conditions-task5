@@ -22,6 +22,7 @@ public class SwitchDaysInMonthPrinter {
             case 10:
             case 12:
                 days = 31; // January, March, May, July, August, October, December
+                break;
             default:
                 System.out.println( "wrong number!");
                 break;
